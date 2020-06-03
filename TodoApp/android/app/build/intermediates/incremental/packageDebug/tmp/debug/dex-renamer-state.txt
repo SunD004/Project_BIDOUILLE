@@ -1,4 +1,0 @@
-#Wed May 27 21:57:40 CEST 2020
-base.0=/home/corentin/Desktop/Project_BIDOUILLE/CwC_React_Native/android/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-path.0=classes.dex
