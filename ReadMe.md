@@ -44,26 +44,26 @@
 #### OU
     ./bin/studio.sh (avec l'installaton via le fichier)
 
-* **Cliquer sur "Open an existing android studio project" et allez chercher votre projet react native et cliquez sur app qui ce trouve dans /android/app puis cliquez sur OK**
+* **Cliquer sur "Open an existing android studio project" et allez chercher votre projet react native et cliquez sur app qui se trouve dans /android/app puis cliquez sur OK**
 * **Dans android studio votre projet va se charger il faut maintenant cliquez sur File puis 'Sync Project With Gradle Files'**
 
 ### 2ième étape
 
-## Une fois que votre projet est synchronisé et que vous avez eu 0 erreurs nous allons pouvoir lancer l'app sur un téléphone !
+## Une fois que votre projet est synchronisé et que vous avez eu 0 erreur nous allons pouvoir lancer l'app sur un téléphone !
 
-    Vous avez 2 choix sois vous télécharger un emulateur de téléphone directement via android studio (nécéssite une bonne conexion pour faire le download) sous vous branchez votre téléphone avec votre cable USB a votre PC.
+    Vous avez 2 choix sois vous télécharger un émulateur de téléphone directement via android studio (nécessite une bonne connexion pour faire le download) sous vous brancher votre téléphone avec votre cable USB a votre PC.
 
-* **Pour télécharger un emulateur sur android-studio rendez vous dans "Tools -> AVD Manager -> + Create Virtual Device" ensuite selectionner le téléphone que vous voulez (Pixel 2 pour moi) puis cliquez sur Next. Maintenant il faut download l'OS android de votre téléphone, pour notre projet il nous faut un OS API LEVEL 28 il s'appelle 'Pie' ensuite cliquer sur Next cela va lancer un download, a la fin de ce download vous cliquez sur Next puis sur Finish**
+* **Pour télécharger un émulateur sur android-studio rendez-vous dans "Tools -> AVD Manager -> + Create Virtual Device" ensuite selectionner le téléphone que vous voulez (Pixel 2 pour moi) puis cliquez sur Next. Maintenant il faut download l'OS android de votre téléphone, pour notre projet il nous faut un OS API LEVEL 28 il s'appelle 'Pie' ensuite cliquer sur Next cela va lancer un download, à la fin de se download vous cliquez sur Next puis sur Finish**
 
-* **Pour brancher votre telephone il suffit de brancher votre cable usb de votre ordinateur a votre téléphone. Ensuite vous devez activer le mode dévellopeur sur votre téléphone pour l'activer il suffit de vous rendre dans les paramètres de votre téléphone de cliquez sur 'A propos du téléphone' puis de spam clique votre Numéros de Build, si le mode dev est activé un petit message va apparaître. Si cette méthode fonctionne pas pour vous je vous invites a regarder sur internet en fonction de votre modele**
+* **Pour brancher votre téléphone il suffit de brancher votre cable usb de votre ordinateur a votre téléphone. Ensuite vous devez activer le mode développeur sur votre téléphone pour l'activer il suffit de vous rendre dans les paramètres de votre téléphone de cliquer sur 'A propos du téléphone' puis de spam clique votre Numéros de Build, si le mode dev est activé un petit message va apparaître. Si cette méthode fonctionne pas pour vous je vous invite à regarder sur internet en fonction de votre modèle**
 
-**Si tout ce passe bien pour vous allez voir un appareil apparaitre dans la scroll box a droite de la scroll box 'app'. Si c'est le cas rendez vous dans le project react native a la racine est faites la commande 'npm start' pour lancer l'app. Ensuite allez sur android studio et cliquez sur le petit martaux vert a gauche de la scroll box 'app' (ca lance le build du projet) puis une fois le build terminé cliquer sur le bouton play a droite de la scroll box des appareils disponibles ou via 'Run -> run app'**
+**Si tout ce passe bien pour vous aller voir un appareil apparaitre dans la scroll box a droite de la scroll box 'app'. Si c'est le cas rendez-vous dans le project react native à la racine et faites la commande 'npm start' pour lancer l'app. Ensuite allez sur android studio et cliquez sur le petit martaux vert à gauche de la scroll box 'app' (ca lance le build du projet) puis une fois le build terminé cliquer sur le bouton play à droite de la scroll box des appareils disponibles ou via 'Run -> run app'**
 
 ## Exercice 3
 
-#### C'est parti votre environnement travail est pret est vous allez pouvoir coder! C'est galère hein? ;D
+#### C'est parti votre environnement travail est pret et vous allez pouvoir coder! C'est galère hein? ;D
 
-**Dans un premier temps nous allons suprimmer tout le code de bienvenue que react nous met dans App.js pour nous expliquez des trucs**
+**Dans un premier temps nous allons supprimer tout le code de bienvenue que react nous met dans App.js pour nous expliquer des trucs**
 
 * **Remplacer tout le code par celui-ci :**
 
@@ -84,7 +84,7 @@ const App = props => {
 
 ## Exercice 4
 
-#### Bon c'est bien jolie mais maintenant on va decouvrir REDUX ! :O
+#### Bon c'est bien joli mais maintenant on va découvrir REDUX ! :O
 
 * **npm install --save react-redux**
 
