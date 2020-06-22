@@ -17,7 +17,8 @@
 
 **Android studio**
 * **https://developer.android.com/studio/index.html (installation via le dossier)**
-* **via ubuntu software pour ubuntu ou via les paquets (idm pour fedora)**
+* **ou via ubuntu software pour ubuntu**
+* **ou via les paquets (ubuntu/fedora)**
 * https://fedoraproject.org/wiki/Android_Studio
 
 ## Installer les dependances de android-studio
